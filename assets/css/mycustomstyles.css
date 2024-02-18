@@ -1,0 +1,15 @@
+.header-area .main-header .logo,
+footer .footer-area .footer-logo {
+    width: 50px;
+    overflow: hidden;
+}
+
+footer .footer-area .footer-logo {
+    width: 70px;
+}
+
+.header-area .main-header .logo img,
+footer .footer-area .footer-logo img {
+    width: 100%;
+    height: auto;
+}
