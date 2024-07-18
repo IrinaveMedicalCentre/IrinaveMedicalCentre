@@ -1,7 +1,7 @@
 .header-area .main-header .logo,
 footer .footer-area .footer-logo {
     width: 100px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 footer .footer-area .footer-logo {
@@ -15,10 +15,16 @@ footer .footer-area .footer-logo img {
 }
 
 .blog_area .blog_left_sidebar .blog_item{
-    position: relative;
-    width: 1150px;
-    overflow: hidden;
+    justify-content: center;
 }
+
+/* .blog_area .blog_left_sidebar .blog_item .blog_item_img{
+    width:1150px;
+} */
+
+/* .blog_area .blog_left_sidebar .blog_item .blog_details{
+    width:1150px;
+} */
 
 .about-area .about-img .about-font-img img{
     width: 500px;
@@ -81,3 +87,16 @@ footer .footer-area .footer-logo img {
     font-weight: bold;
     color: black;
 }
+
+/* .bgimgbg{
+    text-align: center;
+    text-transform: uppercase;
+    text-overflow: inherit;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+} */
+
