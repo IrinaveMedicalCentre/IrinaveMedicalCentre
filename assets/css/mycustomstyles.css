@@ -1,0 +1,271 @@
+.header-area .main-header .logo,
+footer .footer-area .footer-logo {
+    width: 100px;
+    /* overflow: hidden; */
+}
+
+footer .footer-area .footer-logo {
+    width: 100px;
+}
+
+.header-area .main-header .logo img,
+footer .footer-area .footer-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.blog_area .blog_left_sidebar .blog_item{
+    justify-content: center;
+}
+
+/* .blog_area .blog_left_sidebar .blog_item .blog_item_img{
+    width:1150px;
+} */
+
+/* .blog_area .blog_left_sidebar .blog_item .blog_details{
+    width:1150px;
+} */
+
+.about-area .about-img .about-font-img img{
+    width: 500px;
+    height: 650px;
+}
+
+.about-area .about-img .about-back-img img{
+    width: 500px;
+    height: 650px;
+}
+
+.team-area .single-team .team-img img{
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+
+.team-area .single-team .team-caption h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+}
+
+.team-area .single-team .team-caption h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.team-area .single-team .team-caption span{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.contact-form-main .from-left img{
+    width: 100%;
+    height: 810px;
+}
+
+.contact-form-main .form-wrapper #contact-form .form-box input{
+    height: 100px;
+    font-size: 15px;
+    font-family: 500;
+    color: #000000;
+    border-radius: 100px;
+}
+
+.contact-form-main .form-wrapper #contact-form .form-box ::placeholder{
+    font-weight: bold;
+    color: black;
+}
+
+.contact-form-main .form-wrapper #contact-form .select-itms .option{
+    font-weight: bold;
+    color: black;
+}
+
+.contact-form-main .form-wrapper #contact-form .select-itms .value{
+    font-weight: bold;
+    color: black;
+}
+
+/* .bgimgbg{
+    text-align: center;
+    text-transform: uppercase;
+    text-overflow: inherit;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+} */
+
+.abdu{
+    color: aqua;
+}
+
+
+/* for background images of all departments */
+@media (max-width: 359px){
+
+    .team-area .responsive-bed-img {
+        width: 100vw; /* Full viewport width */
+        height: auto; 
+        display: flex;
+        justify-content: center; /* Center the image horizontally */
+        overflow: hidden; /* Prevent the image from overflowing */
+        padding: 0; /* Remove any padding */
+        margin: 0; /* Remove any margin */
+    }
+    
+    .team-area .responsive-bed-img img {
+        width: 100%; /* Take up the full width of the container */
+        height: auto; 
+        display: block;
+        object-fit: cover; /* Ensure the image covers the container properly */
+    }
+}
+
+@media (min-width: 360px) and (max-width: 479px) {
+
+    .team-area .responsive-bed-img {
+        width: 100vw; /* Full viewport width */
+        height: auto; 
+        display: flex;
+        justify-content: center; /* Center the image horizontally */
+        overflow: hidden; /* Prevent the image from overflowing */
+        padding: 0; /* Remove any padding */
+        margin: 0; /* Remove any margin */
+    }
+    
+    .team-area .responsive-bed-img img {
+        width: 100%; /* Take up the full width of the container */
+        height: auto; 
+        display: block;
+        object-fit: cover; /* Ensure the image covers the container properly */
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+    .team-area .responsive-bed-img {
+        width: 100vw; /* Full viewport width */
+        height: auto; 
+        display: flex;
+        justify-content: center; /* Center the image horizontally */
+        overflow: hidden; /* Prevent the image from overflowing */
+        padding: 0; /* Remove any padding */
+        margin: 0; /* Remove any margin */
+    }
+    
+    .team-area .responsive-bed-img img {
+        width: 100%; /* Take up the full width of the container */
+        height: auto; 
+        display: block;
+        object-fit: cover; /* Ensure the image covers the container properly */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .team-area .responsive-bed-img {
+        width: 100vw; /* Full viewport width */
+        height: auto; 
+        display: flex;
+        justify-content: center; /* Center the image horizontally */
+        overflow: hidden; /* Prevent the image from overflowing */
+        padding: 0; /* Remove any padding */
+        margin: 0; /* Remove any margin */
+    }
+    
+    .team-area .responsive-bed-img img {
+        width: 100%; /* Take up the full width of the container */
+        height: auto; 
+        display: block;
+        object-fit: cover; /* Ensure the image covers the container properly */
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+    .team-area .responsive-bed-img {
+        width: 100vw; /* Full viewport width */
+        height: 50vh; 
+        display: flex;
+        justify-content: center; /* Center the image horizontally */
+        overflow: hidden; /* Prevent the image from overflowing */
+        padding: 0; /* Remove any padding */
+        margin: 0; /* Remove any margin */
+    }
+    
+    .team-area .responsive-bed-img img {
+        width: 100%; /* Take up the full width of the container */
+        height: 50vh; 
+        display: block;
+        object-fit: cover; /* Ensure the image covers the container properly */
+    }
+    
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+
+    .team-area .responsive-bed-img {
+        width: 100vw; /* Full viewport width */
+        height: 50vh; 
+        display: flex;
+        justify-content: center; /* Center the image horizontally */
+        overflow: hidden; /* Prevent the image from overflowing */
+        padding: 0; /* Remove any padding */
+        margin: 0; /* Remove any margin */
+    }
+    
+    .team-area .responsive-bed-img img {
+        width: 100%; /* Take up the full width of the container */
+        height: 50vh; 
+        display: block;
+        object-fit: cover; /* Ensure the image covers the container properly */
+    }
+    
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+
+    .team-area .responsive-bed-img {
+        width: 100vw; /* Full viewport width */
+        height: 50vh; 
+        display: flex;
+        justify-content: center; /* Center the image horizontally */
+        overflow: hidden; /* Prevent the image from overflowing */
+        padding: 0; /* Remove any padding */
+        margin: 0; /* Remove any margin */
+    }
+    
+    .team-area .responsive-bed-img img {
+        width: 100%; /* Take up the full width of the container */
+        height: 50vh; 
+        display: block;
+        object-fit: cover; /* Ensure the image covers the container properly */
+    }
+    
+}
+
+@media (min-width: 1921px) {
+
+    .team-area .responsive-bed-img {
+        width: 100vw; /* Full viewport width */
+        height: 50vh; 
+        display: flex;
+        justify-content: center; /* Center the image horizontally */
+        overflow: hidden; /* Prevent the image from overflowing */
+        padding: 0; /* Remove any padding */
+        margin: 0; /* Remove any margin */
+    }
+    
+    .team-area .responsive-bed-img img {
+        width: 100%; /* Take up the full width of the container */
+        height: 50vh; 
+        display: block;
+        object-fit: cover; /* Ensure the image covers the container properly */
+    }
+    
+}
